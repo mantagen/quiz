@@ -1,0 +1,10 @@
+.view {
+  position: absolute;
+  visibility: hidden;
+  z-index: -1;
+}
+.view.active{
+  position: relative;
+  visibility: visible;
+  z-index: auto;
+}
